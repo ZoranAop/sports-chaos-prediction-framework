@@ -4,7 +4,7 @@
 > 一套针对低比分、高偶然性、单场淘汰制体育赛事（足球/世界杯原型）的五层混沌系统预测方法论。
 
 [![License: CC-BY-4.0](https://img.shields.io/badge/License-CC--BY--4.0-green.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Methodology](https://img.shields.io/badge/Framework-v2.1-blue.svg)]()
+[![Methodology](https://img.shields.io/badge/Framework-v2.1-blue.svg)](METHODOLOGY.md)
 
 ---
 
@@ -40,8 +40,11 @@
 
 ```
 CHANGELOG.md                                    # 版本变更记录
+CONTRIBUTING.md                                 # 贡献指南
+LICENSE                                         # CC BY 4.0 许可证
 METHODOLOGY.md                                  # 完整方法论文档（本框架的"说明书"）
 README.md                                       # 本文件
+SECURITY.md                                     # 安全策略
 .gitignore                                      # Git 忽略规则
 cases/
   2026-world-cup-3rd-place-france-england.md    # 案例研究（法国 vs 英格兰，三四名决赛）
