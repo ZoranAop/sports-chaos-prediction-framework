@@ -48,6 +48,7 @@ SECURITY.md                                     # 安全策略
 .gitignore                                      # Git 忽略规则
 cases/
   2026-world-cup-3rd-place-france-england.md    # 案例研究（法国 vs 英格兰，三四名决赛）
+  2026-world-cup-final-argentina-spain.md       # 案例研究（阿根廷 vs 西班牙，决赛预测）
 ```
 
 ## 实战样本 / Case Studies
