@@ -4,7 +4,7 @@
 > 一套针对低比分、高偶然性、单场淘汰制体育赛事（足球/世界杯原型）的四层混沌系统预测方法论。
 
 [![License: CC-BY-4.0](https://img.shields.io/badge/License-CC--BY--4.0-green.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Methodology](https://img.shields.io/badge/Framework-v1.0-blue.svg)]()
+[![Methodology](https://img.shields.io/badge/Framework-v2.0-blue.svg)]()
 
 ---
 
@@ -42,16 +42,23 @@
 METHODOLOGY.md                                  # 完整方法论文档（本框架的"说明书"）
 README.md                                       # 本文件
 cases/
-  2026-world-cup-final-spain-argentina.md       # 案例研究（西班牙 vs 阿根廷）
-  2026-world-cup-final-spain-argentina.html     # 可视化预测报告（四层模型实战呈现）
+  2026-world-cup-qf-france-england.md           # 案例研究（法国 vs 英格兰，四分之一决赛）
 ```
 
-## 实战样本 / Case Study
+## 实战样本 / Case Studies
 
-`cases/2026-world-cup-final-spain-argentina.*` 是框架的完整应用：
-用四层模型推演 2026 美加墨世界杯决赛（西班牙 🇪🇸 vs 阿根廷 🇦🇷），
-最终判断**西班牙以约 60%（置信区间 55–63%）夺冠**，并显式给出阿根廷的清晰爆冷路径
-（梅西单点爆发 + 拖入点球 + 绝境 DNA）。
+### 案例 1：法国 vs 英格兰（2026 世界杯四分之一决赛）
+
+`cases/2026-world-cup-qf-france-england.md` 是框架 v2.0 的首个完整应用：
+用五层模型推演 2026 美加墨世界杯四分之一决赛（法国 🇫🇷 vs 英格兰 🏴󠁧󠁢󠁥󠁮󠁧󠁿），
+最终判断**法国以 54%（置信区间 48–60%）晋级**，但英格兰拥有清晰的爆冷路径
+（定位球优势 + 常规时间首先得分 + 防守堡垒模式激活）。
+
+**核心发现**：
+- 这是一场 coin-flip 级别的对决，双方差距在统计误差范围边缘
+- 法国凭借锦标赛 DNA、替补深度、加时赛体能管理获得微弱边际
+- 英格兰定位球体系是真正的差异化武器（38-42% 进球来自定位球）
+- Mbappé vs Alexander-Arnold 对位链是比赛最大变量
 
 ## 适用边界 / Scope & Limits
 
@@ -65,4 +72,4 @@ cases/
 
 ---
 
-*Framework v1.0 · 数据驱动但以人为本 · 冠军终归球场，而非模型。*
+*Framework v2.0 · 数据驱动但以人为本 · 冠军终归球场，而非模型。*
